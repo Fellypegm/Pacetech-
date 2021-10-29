@@ -1,4 +1,4 @@
-algoritmo "Exercicios - Condicionais"
+algoritmo "Exercicio Projeto semana3"
 
 var
 Salario1, Salario2, Salario3 : Real
@@ -6,14 +6,15 @@ Salario1, Salario2, Salario3 : Real
 
 inicio
 
-Escreval("Informe o seu sal·rio: ")
+Escreval("Informe o seu sal√°rio: ")
 Leia(Salario1)
 Salario2 <- (Salario1 * 30) /100
 Salario3 <- (Salario1 + Salario2)
-Escreval("Seu sal·rio aumento para. R$: ",Salario3,",00")
+Escreval("Seu sal√°rio aumento para. R$: ",Salario3,",00")
 
 
 
 
 
 fimalgoritmo
+Fonte: VisualG
