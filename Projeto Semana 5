@@ -1,0 +1,48 @@
+algoritmo "Projeto Semana 5"
+
+var
+Celsius, Farenheit : Vetor[1..5] de Real
+Opcao : Literal
+I, J : Inteiro
+
+
+
+//Menu (1)
+
+Procedimento MostrarMenu()
+Inicio
+Escreval("1 - Farenheit")
+Escreval("2 - Celsius")
+Escreval("3 - Sair")
+Leia(Opcao)
+Fimprocedimento
+
+inicio
+//Menu
+MostrarMenu()
+Repita
+Escolha Opcao
+
+
+Caso "1"
+Para I de 1 ate 5 faca
+Escreval("Informe a temperatura em Farenheit?" , I)
+Leia(Farenheit[I])
+Celsius[J] <- 5 * (Farenheit[I] - 32) /9
+Escreval("Celsius = ", Celsius[J])
+Fimpara
+
+
+Caso "2"
+Para J de 1 ate 5 faca
+Escreval("Informe a temperatura em Celsius?" , J)
+Leia(Celsius[J])
+Farenheit[J] <-  (Celsius[J] * 9/5) +32
+Escreval("Farenheit = ", Farenheit[I])
+Fimpara
+
+Ate Opcao = "3"
+Fimescolha
+
+fimalgoritmo
+OBS: Fiz de tudo pra tentar dar certo mas não consegui!
